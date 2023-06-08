@@ -10,7 +10,7 @@ const Blog = (props) => {
             <p className="text-red-800">{blog.author}</p>
             <div className="flex flex-row gap-4">
               <p>{blog.date}</p>
-              <p>•{blog.readingTime}</p>
+              <p>• {blog.readingTime}</p>
             </div>
           </div>
           <div className="flex flex-col text-start">
